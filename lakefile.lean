@@ -9,5 +9,3 @@ lean_lib UPT where
   -- UPT kernel and modules
 
 lean_lib Proofs where
-
-lean_lib Theory where
