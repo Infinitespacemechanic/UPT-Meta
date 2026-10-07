@@ -1,4 +1,4 @@
--- Proofs/ZEROLESS.lean - No zeros ever
+-- Proofs.ZEROLESS - No zeros ever
 -- Proof that zero is placeholder where split happens
 
 import UPT.Kernel
