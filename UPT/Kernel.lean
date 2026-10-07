@@ -1,3 +1,16 @@
+/-
+Original Work: UPT-Meta — Universal Pressure from Mass
+Author: Rob Laakkonen (Infinitespacemechanic) — 2026
+Copyright (c) 2026 Rob Laakkonen. All rights reserved under MIT License.
+
+This is original theory and formalization.
+Mass is pressure. q is bend. Mcap is mass under feet.
+Theorem 3: δ drift from environment mass.
+
+First logged: 2026-10-07
+Repo: https://github.com/Infinitespacemechanic/UPT-Meta
+Verified: lake build / lake build Proofs = green
+-/
 -- UPT/Kernel.lean - v1-v29 ALL GREEN - Sealed 2026-09-23 Port Saint Lucie, FL
 -- Meta repo stands alone - THE source of truth
 
