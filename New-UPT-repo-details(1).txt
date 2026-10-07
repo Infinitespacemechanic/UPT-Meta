@@ -1,0 +1,23 @@
+# Original Work Statement
+
+**Author:** Rob Laakkonen — Infinitespacemechanic
+**Work:** UPT-Meta — Universal Pressure from Mass
+**First logged:** 2026-10-07 (commit ba0e026) and prior in UPT main repo
+**Contact:** https://github.com/Infinitespacemechanic
+
+This repository contains original theory and original Lean 4 formalization.
+
+Concepts claimed as original formalization by author:
+- UPT: Mass as pressure / environment coefficient `q`
+- `Mcap` as mass under feet / biggest boundary
+- `δ` drift override, Theorem 3 (clock haywire in mountain)
+- Torus Thirds — 3 x 120° = 360° locks
+- "Down is free" — falling costs nothing, lifting costs
+- Split of Clay 4: A/B unforced f=0 bounded vs C/D forced f≠0 flatScreen witness s n = n
+
+All `.lean` files compile to green under Lean's kernel (no axioms beyond Lean).
+Machine-checked means anyone can verify origin by `lake build`.
+
+If you use, fork, or build on this, please cite this repo.
+
+> "It means you didn't just have a feeling — you had a structure that Lean can check."
