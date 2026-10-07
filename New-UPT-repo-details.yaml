@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "UPT-Meta: Stand alone Universal Pressure from Mass"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+    - family-names: Laakkonen
+    given-names: Rob
+    alias: Infinitespacemechanic
+    website: https://github.com/Infinitespacemechanic
+license: MIT
+repository-code: https://github.com/Infinitespacemechanic/UPT-Meta
+version: 0.1.0
+date-released: 2026-10-07
+keywords:
+    - Universal Pressure from Mass
+    - UPT
+    - Lean4
+    - formal verification
+    - gravity
+    - torus
