@@ -1,4 +1,3 @@
--- Euler bridge - depends only on Kernel
+-- Euler - 1.0472 bridge
 import UPT.Kernel
-
-def euler_bridge : Float := power_stroke * 3 -- π approx
+def euler_bridge : Float := power_stroke * 3

@@ -2,7 +2,7 @@ import Lake
 open Lake DSL
 
 package UPTMeta where
-  -- Meta repo stands alone
+  -- Meta repo stands alone - no external deps
 
 @[default_target]
 lean_lib UPT where
