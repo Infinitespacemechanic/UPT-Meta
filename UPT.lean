@@ -1,7 +1,7 @@
 /-
 Original Work: UPT-Meta — Universal Pressure from Mass
 Author: Rob Laakkonen (Infinitespacemechanic) — 2026
-Copyright (c) 2026 Rob Laakkonen. All rights reserved under MIT License.
+Copyright (c) 2026 Rob Laakkonen.
 
 This is original theory and formalization.
 Mass is pressure. q is bend. Mcap is mass under feet.
