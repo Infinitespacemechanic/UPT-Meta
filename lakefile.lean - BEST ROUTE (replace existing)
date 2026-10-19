@@ -1,0 +1,20 @@
+import Lake
+open Lake DSL
+
+package UPTMeta where
+  -- Float-only tape you can walk with — no Mathlib needed for main build
+
+@[default_target]
+lean_lib UPT where
+  -- Main UPT Float-only modules: UPT.lean, UPT/*, Kernel.lean, FreeFall.lean
+  -- Proofs/ is intentionally NOT in this lib so lake build doesn't require Mathlib
+  srcDir := "."
+
+-- Laser target: needs Mathlib, built only when user wants it with `lake build Proofs`
+-- To enable: add to this file:
+-- require mathlib from git "https://github.com/leanprover-community/mathlib4.git" @ "v4.8.0"
+-- then run lake update
+lean_lib Proofs where
+  srcDir := "Proofs"
+  -- This lib is NOT built by default_target above unless explicitly `lake build Proofs`
+  -- So main `lake build` stays Mathlib-free
