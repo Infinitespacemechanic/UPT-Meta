@@ -1,11 +1,7 @@
--- Proofs/FreeFall.lean - Cleanest witness
 
--- Twins N+0.0472, never same place twice
--- All it takes is one... odd duck
+def FreeFallRate : Float := 1.0 -- 1 s/s
 
-def twinsOffset (t N : Float) : Float := t + N + 0.04719755119659763
--- t2 ≠ t1 because +0.0472 refuses zero
+def free_fall_tick (mass : Float) : Float := mass * FreeFallRate
 
--- Proper time 1 s/s
-def properTime : Float := 1.0
--- Δt/Δt = 1
+def DuePoint (pressure geometry motion : Float) : Bool :=
+  pressure > 0 && geometry > 0 && motion > 0
